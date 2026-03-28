@@ -33,11 +33,11 @@ while validation:
     elif  options[choise-1] == "Calculate Statistics":
         total_inventory= calculate_inventory(inventory )
         recording_products= calculate_quantity(inventory)
-        print(total_inventory)
-        print(recording_products)
+        print(f"Total inventory value: {total_inventory}")
+        print(f"Product number: {recording_products}")
     
     else:
-        print("Muchas gracias por usar nuestros servicios")
+        print("Thank you very much for using our services")
         validation = False
 
                 

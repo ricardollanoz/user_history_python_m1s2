@@ -7,7 +7,8 @@ def valid_not_empty_text(message):
         if text.replace(" ", "").isalpha():
             validate = False
         
-    print("ERROR! Name must only contain letters")
+        else:
+             print("ERROR! Name must only contain letters")
     return text
 
 #This function is used to verify that a number cannot be negative
